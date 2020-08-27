@@ -23,7 +23,7 @@ function createMovieContainer(movies, title = "") {
     movieElement.setAttribute("class", "movie");
 
     const movieTemplate = `
-        <div>
+        <div class="movieTemplateTitle">
             <h2 class="title">${title}</h2>
         </div>
         <section class="section">

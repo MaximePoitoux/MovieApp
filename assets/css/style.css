@@ -317,9 +317,14 @@ iframe {
         margin-top: 0;
     }
 
-    .similarMovie h2 {
-        text-align: center;
+    .movieTemplateTitle {
+        display: flex;
+        justify-content: center;
     }
+
+    /* .similarMovie h2 {
+        text-align: center;
+    } */
 
     .overview {
         text-align: center;
