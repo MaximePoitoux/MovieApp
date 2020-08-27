@@ -131,7 +131,7 @@ iframe {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 600px;
     padding-top: 30px;
 }
 
@@ -284,6 +284,7 @@ iframe {
 
     .divDetails {
         padding-top: 0;
+        width: 100%;
     }
 
     .divDetails h1 {
@@ -315,11 +316,6 @@ iframe {
     .duration {
         margin-left: 0;
         margin-top: 0;
-    }
-
-    .movieTemplateTitle {
-        display: flex;
-        justify-content: center;
     }
 
     /* .similarMovie h2 {
