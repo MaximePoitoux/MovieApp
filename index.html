@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <div class="backgroundYellow">
+    <div class="container">
+        <!-- <h1>Wecolme to my movie App</h1> -->
+
+        <form>
+            <div class="form-group">
+                <input type="text" id="inputValue" placeholder="Search for a movie">
+                    <button type="submit" id="search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </input>
+            </div>
+        </form>
+    </div>
+
+    <div id="movies-searchable"></div>
+    </div>
+    <div id="movies-container"></div>
+    
+    <script src="assets/js/apiTransaction.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
