@@ -131,7 +131,7 @@ iframe {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 600px;
+    width: 100%;
     padding-top: 30px;
 }
 
