@@ -344,4 +344,8 @@ iframe {
         text-align: center;
         padding-bottom: 0px;
     }
+
+    .year {
+        padding-bottom: 15px;
+    }
 }
