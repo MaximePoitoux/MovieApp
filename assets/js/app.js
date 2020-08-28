@@ -1,4 +1,4 @@
-// Selecting elements from the DOM
+// SELECTING ELEMENTS FROM THE DOM
 const inputElement = document.querySelector("#inputValue");
 const buttonElement = document.querySelector("#search");
 const divMoviesSearchable = document.querySelector("#movies-searchable");
@@ -60,8 +60,6 @@ buttonElement.onclick = function(e) {
     console.log("value :", value);
 }
 
-
-
 // FUNCTION TO CREATE AN <IFRAME>
 function createIframe(video) {
     const iframe = document.createElement("iframe");
@@ -72,7 +70,6 @@ function createIframe(video) {
 
     return iframe;
 }
-
 
 // FUNCTION CREATED TO GET VIDEO DATA AND DETAILS
 function createVideoTemplate(video, detail, similar, content) {
@@ -144,7 +141,7 @@ function createVideoTemplate(video, detail, similar, content) {
             </div>
             </div>`;
     });
-    
+
     const loop3 = loop.join('');
 
     const divSimilar = document.createElement("div");
@@ -156,9 +153,6 @@ function createVideoTemplate(video, detail, similar, content) {
 
     divDetail.appendChild(divSimilar);
 }
-
-
-
 
 // GET A MOVIE TRAILER
 document.onclick = function(e) {
