@@ -252,7 +252,8 @@ iframe {
     }
 
     .section {
-        padding: 40px 0;
+        padding-top: 0;
+        padding-bottom: 60px;
     }
 
     #movies-container {
@@ -265,6 +266,7 @@ iframe {
 
     .content-display {
         flex-direction: column;
+        height: auto;
     }
 
     iframe {
@@ -328,5 +330,18 @@ iframe {
     .section img:hover {
         transform: none;
         border-radius: 0;
+    }
+
+    .iframeContainer {
+        margin-top: 50px;
+    }
+
+    .content-close {
+        top: 0.1em;
+    }
+
+    .similarMovie h2 {
+        text-align: center;
+        padding-bottom: 0px;
     }
 }
