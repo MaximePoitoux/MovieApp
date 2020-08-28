@@ -144,7 +144,7 @@ function createVideoTemplate(video, detail, similar, content) {
             </div>
             </div>`;
     });
-    // const loop2 = loop.slice(0, 6);
+    
     const loop3 = loop.join('');
 
     const divSimilar = document.createElement("div");
